@@ -134,7 +134,6 @@ export class ComisionesService implements OnModuleInit {
       return {
         _id: venta._id,
         fechaVenta: venta.fechaVenta,
-        // *** SOLUCIÓN AL ERROR: Doble casting ***
         vendedor: (venta.vendedor as unknown as PopulatedVendedor).nombre,
         monto: venta.monto,
         reglaAplicada: reglaAplicadaInfo ? reglaAplicadaInfo.porcentaje : 0, 
