@@ -3,9 +3,10 @@
 </p>
 
 
-README del Proyecto Backend
-Este documento proporciona una descripción general del proyecto backend, sus tecnologías, cómo configurarlo y sus endpoints API.
 
+# Mini-Core Backend
+
+## Descripción
 🚀 Visión General del Proyecto
 Este es el backend de una aplicación diseñada para calcular comisiones de ventas. Se encarga de gestionar los datos de ventas, usuarios y reglas de comisión, y de aplicar estas reglas para determinar las comisiones.
 
